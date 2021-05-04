@@ -3,8 +3,6 @@ import MovieList from '../components/MovieList'
 import Preloader from '../components/Preloader'
 import Search from '../components/Search'
 
-//OMDB-API Key: 480d2bb6
-// http://www.omdbapi.com/?apikey=480d2bb6&
 const API_KEY = process.env.REACT_APP_API_KEY
 
 class Main extends Component {
